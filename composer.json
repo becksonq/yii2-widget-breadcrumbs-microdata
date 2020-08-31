@@ -1,0 +1,22 @@
+{
+    "name": "becksonq/yii2-widget-breadcrumbs-microdata",
+    "description": "Yii2 bootstrap4 breadcrumbs widget with microdata markup from Schema.org",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","breadcrumbs","microdata","bootstrap4"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "becksonq",
+            "email": "becksonq@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "becksonq\\breadcrumbs\\": ""
+        }
+    }
+}
