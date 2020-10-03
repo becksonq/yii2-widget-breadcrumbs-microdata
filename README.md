@@ -2,6 +2,8 @@ Yii2 bootstrap4 breadcrumbs widget
 ==================================
 Yii2 bootstrap4 breadcrumbs widget with microdata markup from Schema.org
 
+[![Packagist](https://img.shields.io/packagist/dt/becksonq/yii2-widget-breadcrumbs-microdata.svg)]() [![Packagist](https://img.shields.io/packagist/v/becksonq/yii2-widget-breadcrumbs-microdata.svg)]()  [![license](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+
 Installation
 ------------
 
