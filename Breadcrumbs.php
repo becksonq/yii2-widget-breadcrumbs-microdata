@@ -58,7 +58,7 @@ class Breadcrumbs extends BaseBreadcrumbs
             $links[] = $this->renderItem($link, isset($link['url']) ? $this->itemTemplate : $this->activeItemTemplate,
                 ++$key);
         }
-        return \yii\bootstrap4\Html::tag('nav', Html::tag($this->tag, implode('', $links), $this->options),
+        return Html::tag('nav', Html::tag($this->tag, implode('', $links), $this->options),
             $this->navOptions);
     }
 
@@ -73,7 +73,7 @@ class Breadcrumbs extends BaseBreadcrumbs
     {
         $encodeLabel = ArrayHelper::remove($link, 'encode', $this->encodeLabels);
         if (array_key_exists('label', $link)) {
-            $label = $encodeLabel ? \yii\bootstrap4\Html::encode($link['label']) : $link['label'];
+            $label = $encodeLabel ? Html::encode($link['label']) : $link['label'];
         } else {
             throw new InvalidConfigException('The "label" element is required for each link.');
         }
